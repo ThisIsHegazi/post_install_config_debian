@@ -49,7 +49,8 @@ reboot
 
 # install nvidia-driver
 sudo apt install nvidia-driver
-# check for nvidia-smi
+reboot
+# check for nvidia-smi after reboot
 
 
 # remap capsLock
