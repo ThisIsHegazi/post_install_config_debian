@@ -31,6 +31,13 @@ sudo apt modernize-sources
 # install important packages
 sudo apt install git curl wget gcc g++ build-essential python-is-python3 linux-headers-$(uname -r) -y
 
+# install flatpak
+sudo apt install flatpak
+# install software-plugin
+sudo apt install gnome-software-plugin-flatpak
+# add flatpak repo
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
 
 # configure console fonts and choose Dejavu 59
 sudo dpkg-reconfigure console-setup
