@@ -29,7 +29,7 @@ sudo apt modernize-sources
 
 
 # install important packages
-sudo apt install git curl gcc g++ build-essential linux-headers-$(uname -r)
+sudo apt install git curl wget gcc g++ build-essential python-is-python3 linux-headers-$(uname -r) -y
 
 
 # configure console fonts and choose Dejavu 59
